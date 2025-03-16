@@ -32,6 +32,6 @@ sortearAmigo = () => {
         return
     }
     let amigoSorteado = amigos[Math.floor(Math.random() * amigos.length)]
-    let mensagemSorteio = `O amigo sorteado foi:: ${amigoSorteado}`
+    let mensagemSorteio = `O amigo sorteado foi: ${amigoSorteado}`
     document.getElementById('resultado').innerHTML = mensagemSorteio
 }
